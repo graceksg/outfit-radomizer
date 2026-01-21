@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outfit Randomizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <h1 class="title">Outfit Randomizer</h1>
+
+      <!-- Randomize Button -->
+      <button class="random-button" id="random-btn">randomize!</button>
+
+      <!-- Add Ons -->
+      <div class="addons-container section-card">
+        <h2 class="section-title">Add Ons</h2>
+        <img id="addOns" class="addons-image" src="" alt="accessories" />
+        <div class="carousel-buttons">
+          <button id="0prevBtn" aria-label="Previous add ons">←</button>
+          <button id="0nextBtn" aria-label="Next add ons">→</button>
+        </div>
+      </div>
+
+      <!-- Tops -->
+      <div class="tops-container section-card">
+        <h2 class="section-title">Tops</h2>
+        <img id="tops" class="tops-image" src="" alt="tops" />
+        <div class="carousel-buttons">
+          <button id="1prevBtn" aria-label="Previous tops">←</button>
+          <button id="1nextBtn" aria-label="Next tops">→</button>
+        </div>
+      </div>
+
+      <!-- Bottoms -->
+      <div class="bottoms-container section-card">
+        <h2 class="section-title">Bottoms</h2>
+        <img id="bottoms" class="bottoms-image" src="" alt="bottoms" />
+        <div class="carousel-buttons">
+          <button id="2prevBtn" aria-label="Previous bottoms">←</button>
+          <button id="2nextBtn" aria-label="Next bottoms">→</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
